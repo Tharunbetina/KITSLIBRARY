@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesPage"
+    android:padding="@dimen/_10sdp"
+    android:background="@drawable/kitslibbggg">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:text="CATEGORIES"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_40sdp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="CSE"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="IT"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="ECE"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="EEE"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="SH"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="MECH"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="CIVIL"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/catbox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="tomain">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="MBA"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_30sdp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/kitlibimg"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

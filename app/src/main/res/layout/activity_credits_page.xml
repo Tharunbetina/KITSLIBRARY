@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".CreditsPage"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CREDITS"
+        android:textSize="@dimen/_20sdp"
+        app:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layout_weight="2"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:layout_weight="4">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tharun Krishna Vardhan Betina"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Rajkumar kakumanu"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Gopi Bokkisam"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Srinivas Jangam"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light"
+            android:layout_weight="1"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="UNDER GUIDANCE OF"
+        android:textSize="@dimen/_20sdp"
+        app:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layout_weight="2"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mr. Prashant"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="SPECIAL THANKS TO"
+        android:textSize="@dimen/_20sdp"
+        app:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layout_weight="2"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Dr. Bhanu Prakash"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            app:fontFamily="sans-serif-condensed-light" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
